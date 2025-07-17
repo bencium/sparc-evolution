@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(mv:*)",
+      "Bash(sed:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo fork:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git remote add:*)",
+      "Bash(gh pr view:*)",
+      "Bash(git pull:*)"
+    ],
+    "deny": []
+  }
+}
